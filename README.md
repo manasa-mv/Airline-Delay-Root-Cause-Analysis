@@ -43,3 +43,37 @@ The objective was to:
 - Correlation Heatmap
 - Seasonal Delay Heatmap
 - Monthly Flight Volume Analysis
+
+- ---
+
+## 🚀 How to Run This Project
+
+### 1️⃣ Clone the repository
+
+git clone https://github.com/manasa-mv/Airline-Delay-Root-Cause-Analysis.git
+cd Airline-Delay-Root-Cause-Analysis
+
+### 2️⃣ Install required libraries
+
+pip install pandas numpy matplotlib seaborn
+
+### 3️⃣ Download Dataset
+
+Download the 2015 US Flights dataset and place the following files in the project folder:
+
+- flights.csv
+- airlines.csv
+- airports.csv
+
+⚠️ Make sure `flights.csv` is in the same folder as the notebook.
+
+### 4️⃣ Run the Notebook
+
+Open:
+
+Airline_Delay_Root_Cause_Analysis.ipynb
+
+Then run all cells.
+
+If the dataset is missing, the notebook will raise a clear error message.
+
